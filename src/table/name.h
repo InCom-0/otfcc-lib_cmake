@@ -1,7 +1,7 @@
 #ifndef CARYLL_TABLE_NAME_H
 #define CARYLL_TABLE_NAME_H
 
-#include "otfcc/table/name.h"
+#include <otfcc/table/name.h>
 
 table_name *otfcc_readName(const otfcc_Packet packet, const otfcc_Options *options);
 void otfcc_dumpName(const table_name *table, json_value *root, const otfcc_Options *options);

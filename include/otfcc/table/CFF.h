@@ -1,9 +1,9 @@
 #ifndef CARYLL_INCLUDE_TABLE_CFF_H
 #define CARYLL_INCLUDE_TABLE_CFF_H
 
-#include "table-common.h"
-#include "head.h"
-#include "glyf.h"
+#include <otfcc/table/table-common.h>
+#include <otfcc/table/head.h>
+#include <otfcc/table/glyf.h>
 
 typedef struct {
 	scale_t a;

@@ -1,8 +1,8 @@
 #ifndef CARYLL_INCLUDE_TABLE_HDMX_H
 #define CARYLL_INCLUDE_TABLE_HDMX_H
 
-#include "table-common.h"
-#include "maxp.h"
+#include <otfcc/table/table-common.h>
+#include <otfcc/table/maxp.h>
 
 typedef struct {
 	uint8_t pixelSize;

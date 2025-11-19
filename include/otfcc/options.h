@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include <stdbool.h>
-#include "logger.h"
+#include <otfcc/logger.h>
 
 typedef struct {
 	bool debug_wait_on_start;

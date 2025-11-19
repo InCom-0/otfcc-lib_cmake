@@ -1,5 +1,5 @@
 #include "support/util.h"
-#include "otfcc/font.h"
+#include <otfcc/font.h>
 #include "table/all.h"
 
 static void *serializeToJson(otfcc_Font *font, const otfcc_Options *options) {

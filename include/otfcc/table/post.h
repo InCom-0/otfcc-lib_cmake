@@ -1,7 +1,7 @@
 #ifndef CARYLL_INCLUDE_TABLE_POST_H
 #define CARYLL_INCLUDE_TABLE_POST_H
 
-#include "table-common.h"
+#include <otfcc/table/table-common.h>
 
 typedef struct {
 	// PostScript information

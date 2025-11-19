@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.30...4.0)
 
-project(otfcc
-  HOMEPAGE_URL "https://github.com/InCom-0/otfcc"
+project(otfcc-lib
+  HOMEPAGE_URL "https://github.com/InCom-0/otfcc-lib_cmake"
   DESCRIPTION
   "Optimized OpenType builder and inspector."
   LANGUAGES C CXX)

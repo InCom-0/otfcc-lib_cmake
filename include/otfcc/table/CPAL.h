@@ -1,7 +1,7 @@
 #ifndef CARYLL_INCLUDE_TABLE_CPAL_H
 #define CARYLL_INCLUDE_TABLE_CPAL_H
 
-#include "table-common.h"
+#include <otfcc/table/table-common.h>
 
 // Color and Color list
 typedef struct {

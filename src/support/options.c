@@ -1,4 +1,4 @@
-#include "otfcc/options.h"
+#include <otfcc/options.h>
 #include "support/otfcc-alloc.h"
 
 otfcc_Options *otfcc_newOptions() {

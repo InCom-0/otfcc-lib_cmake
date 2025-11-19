@@ -1,13 +1,13 @@
 #ifndef CARYLL_INCLUDE_GLYPH_ORDER_H
 #define CARYLL_INCLUDE_GLYPH_ORDER_H
 
-#include "sds.h"
-#include "json.h"
-#include "uthash.h"
-#include "caryll/ownership.h"
-#include "otfcc/primitives.h"
-#include "otfcc/handle.h"
-#include "otfcc/options.h"
+#include <sds.h>
+#include <json.h>
+#include <uthash.h>
+#include <caryll/ownership.h>
+#include <otfcc/primitives.h>
+#include <otfcc/handle.h>
+#include <otfcc/options.h>
 
 typedef struct {
 	glyphid_t gid;

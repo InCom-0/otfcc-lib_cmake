@@ -4,10 +4,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
-#include "sds.h"
-#include "caryll/ownership.h"
-#include "caryll/element.h"
-#include "primitives.h"
+#include <sds.h>
+#include <caryll/ownership.h>
+#include <caryll/element.h>
+#include <otfcc/primitives.h>
 
 typedef enum {
 	HANDLE_STATE_EMPTY = 0,

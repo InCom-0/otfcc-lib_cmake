@@ -1,7 +1,7 @@
 #ifndef CARYLL_INCLUDE_TABLE_GEDF_H
 #define CARYLL_INCLUDE_TABLE_GEDF_H
 
-#include "otl.h"
+#include <otfcc/table/otl.h>
 
 typedef struct {
 	int8_t format;

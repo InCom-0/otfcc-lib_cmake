@@ -1,7 +1,7 @@
 #ifndef CARYLL_INCLUDE_TABLE_MAXP_H
 #define CARYLL_INCLUDE_TABLE_MAXP_H
 
-#include "table-common.h"
+#include <otfcc/table/table-common.h>
 
 typedef struct {
 	// Maximum profile

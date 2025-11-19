@@ -1,7 +1,7 @@
 #ifndef CARYLL_INCLUDE_TABLE_OTL_CLASSDEF_H
 #define CARYLL_INCLUDE_TABLE_OTL_CLASSDEF_H
-#include "../table-common.h"
-#include "coverage.h"
+#include <otfcc/table/table-common.h>
+#include <otfcc/table/otl/coverage.h>
 
 typedef struct {
 	glyphid_t numGlyphs;

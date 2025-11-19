@@ -8,10 +8,10 @@
 #include "json.h"
 #include "sds.h"
 
-#include "caryll/ownership.h"
-#include "otfcc/primitives.h"
-#include "otfcc/vf/vq.h"
-#include "otfcc/table/fvar.h"
+#include <caryll/ownership.h>
+#include <otfcc/primitives.h>
+#include <otfcc/vf/vq.h>
+#include <otfcc/table/fvar.h>
 
 #ifndef INLINE
 #ifdef _MSC_VER

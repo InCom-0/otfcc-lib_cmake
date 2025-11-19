@@ -1,8 +1,8 @@
 #ifndef CARYLL_INCLUDE_TABLE_FVAR_H
 #define CARYLL_INCLUDE_TABLE_FVAR_H
 
-#include "table-common.h"
-#include "otfcc/vf/vf.h"
+#include <otfcc/table/table-common.h>
+#include <otfcc/vf/vf.h>
 
 // vf_Axis and vf_Axes are defined in vf/vf.h
 // fvar_Instance is defined below

@@ -6,7 +6,7 @@
 #include <string.h>
 #include <stdbool.h>
 
-#include "element.h"
+#include <caryll/element.h>
 
 // We assume all T have trivial move constructors.
 #define caryll_Vector(T)                                                                           \

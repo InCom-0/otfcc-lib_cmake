@@ -1,7 +1,7 @@
 #ifndef CARYLL_TABLE_HHEA_H
 #define CARYLL_TABLE_HHEA_H
 
-#include "otfcc/table/hhea.h"
+#include <otfcc/table/hhea.h>
 
 table_hhea *otfcc_newHhea();
 table_hhea *otfcc_readHhea(const otfcc_Packet packet, const otfcc_Options *options);

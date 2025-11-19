@@ -1,10 +1,10 @@
 #ifndef CARYLL_SFNT_BUILDER_H
 #define CARYLL_SFNT_BUILDER_H
 
-#include "primitives.h"
-#include "caryll/buffer.h"
-#include "otfcc/options.h"
-#include "uthash.h"
+#include <otfcc/primitives.h>
+#include <caryll/buffer.h>
+#include <otfcc/options.h>
+#include <uthash.h>
 
 typedef struct {
 	int tag;

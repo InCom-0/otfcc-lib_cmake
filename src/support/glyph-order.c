@@ -1,5 +1,5 @@
 #include "util.h"
-#include "otfcc/glyph-order.h"
+#include <otfcc/glyph-order.h>
 
 static INLINE void initGlyphOrder(otfcc_GlyphOrder *go) {
 	go->byGID = NULL;

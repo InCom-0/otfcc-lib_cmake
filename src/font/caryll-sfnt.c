@@ -1,5 +1,5 @@
 #include "support/util.h"
-#include "otfcc/sfnt.h"
+#include <otfcc/sfnt.h>
 
 static void otfcc_read_packets(otfcc_SplineFontContainer *font, FILE *file) {
 	for (uint32_t count = 0; count < font->count; count++) {

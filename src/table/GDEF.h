@@ -1,7 +1,7 @@
 #ifndef CARYLL_TABLE_GDEF_H
 #define CARYLL_TABLE_GDEF_H
 
-#include "otfcc/table/GDEF.h"
+#include <otfcc/table/GDEF.h>
 
 table_GDEF *otfcc_readGDEF(const otfcc_Packet packet, const otfcc_Options *options);
 void otfcc_dumpGDEF(const table_GDEF *gdef, json_value *root, const otfcc_Options *options);

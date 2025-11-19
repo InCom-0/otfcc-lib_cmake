@@ -1,7 +1,7 @@
 #ifndef CARYLL_TABLE_OTL_H
 #define CARYLL_TABLE_OTL_H
 
-#include "otfcc/table/otl.h"
+#include <otfcc/table/otl.h>
 
 otl_Subtable *otfcc_readOtl_subtable(uint8_t *data, uint32_t tableLength, uint32_t subtableOffset,
                                      otl_LookupType lookupType, const glyphid_t maxGlyphs,

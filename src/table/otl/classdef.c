@@ -1,5 +1,5 @@
 #include "support/util.h"
-#include "otfcc/table/otl/classdef.h"
+#include <otfcc/table/otl/classdef.h>
 
 static INLINE void disposeClassDef(otl_ClassDef *cd) {
 	if (cd->glyphs) {

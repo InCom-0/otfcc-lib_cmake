@@ -1,5 +1,5 @@
 #include "support/util.h"
-#include "otfcc/sfnt-builder.h"
+#include <otfcc/sfnt-builder.h>
 
 static uint32_t buf_checksum(caryll_Buffer *buffer) {
 	uint32_t actualLength = (uint32_t)buflen(buffer);

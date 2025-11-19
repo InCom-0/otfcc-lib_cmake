@@ -1,13 +1,13 @@
 #ifndef CARYLL_VF_FUNCTIONAL_H
 #define CARYLL_VF_FUNCTIONAL_H
 
-#include "caryll/ownership.h"
-#include "caryll/element.h"
-#include "caryll/vector.h"
-#include "otfcc/primitives.h"
-#include "otfcc/handle.h"
+#include <caryll/ownership.h>
+#include <caryll/element.h>
+#include <caryll/vector.h>
+#include <otfcc/primitives.h>
+#include <otfcc/handle.h>
 
-#include "region.h"
+#include <otfcc/vf/region.h>
 
 typedef enum { VQ_STILL = 0, VQ_DELTA = 1 } VQSegType;
 typedef struct {

@@ -1,7 +1,7 @@
 #ifndef CARYLL_INCLUDE_TABLE_OS_2_H
 #define CARYLL_INCLUDE_TABLE_OS_2_H
 
-#include "table-common.h"
+#include <otfcc/table/table-common.h>
 
 typedef struct {
 	// OS/2 and Windows specific metrics

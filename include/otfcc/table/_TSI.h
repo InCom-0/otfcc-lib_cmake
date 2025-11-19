@@ -1,7 +1,7 @@
 #ifndef CARYLL_INCLUDE_TABLE_TSI_H
 #define CARYLL_INCLUDE_TABLE_TSI_H
 
-#include "table-common.h"
+#include <otfcc/table/table-common.h>
 
 // TSI entries
 typedef enum { TSI_GLYPH, TSI_FPGM, TSI_PREP, TSI_CVT, TSI_RESERVED_FFFC } tsi_EntryType;
