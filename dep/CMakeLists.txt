@@ -20,4 +20,5 @@ target_sources(dep-lib
 )
 
 add_subdirectory(nowide)
-target_link_libraries(dep-lib PUBLIC nowide-lib)
+add_subdirectory(intl)
+target_link_libraries(dep-lib PUBLIC nowide-lib intl-lib)
