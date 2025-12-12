@@ -233,13 +233,17 @@ static uint32_t cff_dec_r(const uint8_t *start, cff_Value *val) {
         b = *nibst % 16;
 
         if (a != 0x0f) {
-            strncat((char *)restr, nibble_symb[a], sizeof(restr) - strlen((char *)restr) - 1);
+            char *crestr = (char *)restr;
+            snprintf(crestr + strlen(crestr), sizeof(crestr) - strlen(crestr), "%s", nibble_symb[a]);
+            // strncat((char *)restr, nibble_symb[a], sizeof(restr) - strlen((char *)restr) - 1);
             // strcat_s((char *)restr, sizeof restr, nibble_symb[a]);
         }
         else { break; }
 
         if (b != 0x0f) {
-            strncat((char *)restr, nibble_symb[b], sizeof(restr) - strlen((char *)restr) - 1);
+            char *crestr = (char *)restr;
+            snprintf(crestr + strlen(crestr), sizeof(crestr) - strlen(crestr), "%s", nibble_symb[b]);
+            // strncat((char *)restr, nibble_symb[b], sizeof(restr) - strlen((char *)restr) - 1);
             // strcat_s((char *)restr, sizeof restr, nibble_symb[b]);
         }
         else { break; }
