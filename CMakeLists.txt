@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.30...4.0)
 project(otfcc-lib
   HOMEPAGE_URL "https://github.com/InCom-0/otfcc-lib_cmake"
   DESCRIPTION
-  "Optimized OpenType builder and inspector."
+  "Fork of otfcc, keeping only the otfcc-lib library portion of the project (and its dependencies). Modern CMake enabled. Made cross-platform."
   LANGUAGES C CXX)
 set(CMAKE_CXX_SCAN_FOR_MODULES OFF)
 
@@ -20,7 +20,7 @@ endif()
 ### Target specification ###
 ########################################################
 
-add_library(otfcc-lib STATIC)
+add_library(otfcc-lib)
 add_library(otfcc-lib::otfcc-lib ALIAS otfcc-lib)
 
 file(GLOB_RECURSE SRC_otfcc-lib src/**.c)
