@@ -1,7 +1,7 @@
 #ifndef CARYLL_TABLE_TSI5_H
 #define CARYLL_TABLE_TSI5_H
 
-#include <otfcc/table/TSI5.h>
+#include <otfcc/internal/table/TSI5.h>
 
 table_TSI5 *otfcc_readTSI5(const otfcc_Packet packet, const otfcc_Options *options);
 void otfcc_dumpTSI5(const table_TSI5 *table, json_value *root, const otfcc_Options *options);

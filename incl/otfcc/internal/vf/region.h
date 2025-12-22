@@ -1,11 +1,11 @@
 #ifndef CARYLL_VF_REGION_H
 #define CARYLL_VF_REGION_H
 
-#include <otfcc/caryll/element.h>
-#include <otfcc/caryll/vector.h>
-#include <otfcc/primitives.h>
+#include <otfcc/internal/caryll/element.h>
+#include <otfcc/internal/caryll/vector.h>
+#include <otfcc/internal/primitives.h>
 
-#include <otfcc/vf/vv.h>
+#include <otfcc/internal/vf/vv.h>
 
 typedef struct {
 	pos_t start;

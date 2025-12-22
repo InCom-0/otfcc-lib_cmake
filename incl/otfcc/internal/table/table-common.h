@@ -3,16 +3,16 @@
 
 #include <json.h>
 
-#include <otfcc/caryll/buffer.h>
-#include <otfcc/caryll/ownership.h>
-#include <otfcc/caryll/vector.h>
+#include <otfcc/internal/caryll/buffer.h>
+#include <otfcc/internal/caryll/ownership.h>
+#include <otfcc/internal/caryll/vector.h>
 
-#include <otfcc/handle.h>
-#include <otfcc/glyph-order.h>
-#include <otfcc/primitives.h>
-#include <otfcc/sfnt.h>
-#include <otfcc/options.h>
+#include <otfcc/internal/handle.h>
+#include <otfcc/internal/glyph-order.h>
+#include <otfcc/internal/primitives.h>
+#include <otfcc/internal/sfnt.h>
+#include <otfcc/internal/options.h>
 
-#include <otfcc/vf/vq.h>
+#include <otfcc/internal/vf/vq.h>
 
 #endif

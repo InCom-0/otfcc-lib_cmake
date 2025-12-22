@@ -1,10 +1,10 @@
 #ifndef CARYLL_INCLUDE_TABLE_HMTX_H
 #define CARYLL_INCLUDE_TABLE_HMTX_H
 
-#include <otfcc/table/table-common.h>
+#include <otfcc/internal/table/table-common.h>
 
-#include <otfcc/table/hhea.h>
-#include <otfcc/table/maxp.h>
+#include <otfcc/internal/table/hhea.h>
+#include <otfcc/internal/table/maxp.h>
 
 typedef struct {
 	length_t advanceWidth;

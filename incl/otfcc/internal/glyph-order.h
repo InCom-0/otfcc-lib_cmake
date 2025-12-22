@@ -4,10 +4,10 @@
 #include <sds.h>
 #include <json.h>
 #include <uthash.h>
-#include <otfcc/caryll/ownership.h>
-#include <otfcc/primitives.h>
-#include <otfcc/handle.h>
-#include <otfcc/options.h>
+#include <otfcc/internal/caryll/ownership.h>
+#include <otfcc/internal/primitives.h>
+#include <otfcc/internal/handle.h>
+#include <otfcc/internal/options.h>
 
 typedef struct {
 	glyphid_t gid;

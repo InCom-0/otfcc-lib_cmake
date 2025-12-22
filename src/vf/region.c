@@ -1,4 +1,4 @@
-#include <otfcc/vf/axis.h>
+#include <otfcc/internal/vf/axis.h>
 #include "support/util.h"
 
 vq_Region *vq_createRegion(shapeid_t dimensions) {

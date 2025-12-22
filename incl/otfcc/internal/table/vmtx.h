@@ -1,10 +1,10 @@
 #ifndef CARYLL_INCLUDE_TABLE_VMTX_H
 #define CARYLL_INCLUDE_TABLE_VMTX_H
 
-#include <otfcc/table/table-common.h>
+#include <otfcc/internal/table/table-common.h>
 
-#include <otfcc/table/vhea.h>
-#include <otfcc/table/maxp.h>
+#include <otfcc/internal/table/vhea.h>
+#include <otfcc/internal/table/maxp.h>
 
 typedef struct {
 	length_t advanceHeight;

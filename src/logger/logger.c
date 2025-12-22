@@ -1,5 +1,5 @@
 #include "support/util.h"
-#include <otfcc/logger.h>
+#include <otfcc/internal/logger.h>
 
 typedef struct Logger {
 	otfcc_ILogger vtable;

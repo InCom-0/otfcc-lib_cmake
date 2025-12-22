@@ -1,7 +1,7 @@
 #ifndef CARYLL_INCLUDE_TABLE_CMAP_H
 #define CARYLL_INCLUDE_TABLE_CMAP_H
 
-#include <otfcc/table/table-common.h>
+#include <otfcc/internal/table/table-common.h>
 
 // We will support format 0, 4, 12 and 14 of CMAP only
 typedef struct {

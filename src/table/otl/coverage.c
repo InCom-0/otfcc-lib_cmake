@@ -1,5 +1,5 @@
 #include "support/util.h"
-#include <otfcc/table/otl/coverage.h>
+#include <otfcc/internal/table/otl/coverage.h>
 
 static INLINE void disposeCoverage(MOVE otl_Coverage *coverage) {
 	for (glyphid_t j = 0; j < coverage->numGlyphs; j++) {

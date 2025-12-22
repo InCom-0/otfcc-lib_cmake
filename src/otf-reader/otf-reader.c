@@ -1,5 +1,5 @@
 #include "support/util.h"
-#include <otfcc/font.h>
+#include <otfcc/internal/font.h>
 #include "table/all.h"
 
 #include "unconsolidate.h"

@@ -1,6 +1,6 @@
 #ifndef CARYLL_INCLUDE_TABLE_OTL_COVERAGE_H
 #define CARYLL_INCLUDE_TABLE_OTL_COVERAGE_H
-#include <otfcc/table/table-common.h>
+#include <otfcc/internal/table/table-common.h>
 
 typedef struct {
 	glyphid_t numGlyphs;

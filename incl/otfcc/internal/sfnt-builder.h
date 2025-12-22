@@ -1,9 +1,9 @@
 #ifndef CARYLL_SFNT_BUILDER_H
 #define CARYLL_SFNT_BUILDER_H
 
-#include <otfcc/primitives.h>
-#include <otfcc/caryll/buffer.h>
-#include <otfcc/options.h>
+#include <otfcc/internal/primitives.h>
+#include <otfcc/internal/caryll/buffer.h>
+#include <otfcc/internal/options.h>
 #include <uthash.h>
 
 typedef struct {

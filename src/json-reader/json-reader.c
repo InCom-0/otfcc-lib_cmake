@@ -1,5 +1,5 @@
 #include "support/util.h"
-#include <otfcc/font.h>
+#include <otfcc/internal/font.h>
 #include "table/all.h"
 
 static otfcc_font_subtype otfcc_decideFontSubtypeFromJson(const json_value *root) {

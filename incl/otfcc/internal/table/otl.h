@@ -1,10 +1,10 @@
 #ifndef CARYLL_INCLUDE_TABLE_OTL_H
 #define CARYLL_INCLUDE_TABLE_OTL_H
 
-#include <otfcc/caryll/vector.h>
-#include <otfcc/table/table-common.h>
-#include <otfcc/table/otl/coverage.h>
-#include <otfcc/table/otl/classdef.h>
+#include <otfcc/internal/caryll/vector.h>
+#include <otfcc/internal/table/table-common.h>
+#include <otfcc/internal/table/otl/coverage.h>
+#include <otfcc/internal/table/otl/classdef.h>
 
 typedef enum {
 	otl_type_unknown = 0,

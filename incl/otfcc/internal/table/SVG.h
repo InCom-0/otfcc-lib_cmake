@@ -1,7 +1,7 @@
 #ifndef CARYLL_INCLUDE_TABLE_SVG_H
 #define CARYLL_INCLUDE_TABLE_SVG_H
 
-#include <otfcc/table/table-common.h>
+#include <otfcc/internal/table/table-common.h>
 
 // SVG assignment
 typedef struct {

@@ -18,12 +18,12 @@
 #include "sds.h"
 #include "uthash.h"
 
-#include <otfcc/caryll/ownership.h>
-#include <otfcc/caryll/buffer.h>
+#include <otfcc/internal/caryll/ownership.h>
+#include <otfcc/internal/caryll/buffer.h>
 
-#include <otfcc/handle.h>
-#include <otfcc/primitives.h>
-#include <otfcc/options.h>
+#include <otfcc/internal/handle.h>
+#include <otfcc/internal/primitives.h>
+#include <otfcc/internal/options.h>
 
 #include "aliases.h"
 #include "otfcc-alloc.h"

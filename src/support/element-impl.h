@@ -1,7 +1,7 @@
 #ifndef CARYLL_SUPPORT_ELEMENT_IMPL_H
 #define CARYLL_SUPPORT_ELEMENT_IMPL_H
 
-#include <otfcc/caryll/element.h>
+#include <otfcc/internal/caryll/element.h>
 #include "otfcc-alloc.h"
 
 #ifndef __CARYLL_INLINE__

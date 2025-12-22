@@ -1,7 +1,7 @@
 #ifndef CARYLL_INCLUDE_TABLE_CVT_H
 #define CARYLL_INCLUDE_TABLE_CVT_H
 
-#include <otfcc/table/table-common.h>
+#include <otfcc/internal/table/table-common.h>
 
 typedef struct {
 	uint32_t length;

@@ -1,10 +1,10 @@
 #ifndef CARYLL_INCLUDE_TABLE_GLYF_H
 #define CARYLL_INCLUDE_TABLE_GLYF_H
 
-#include <otfcc/table/table-common.h>
-#include <otfcc/table/head.h>
-#include <otfcc/table/maxp.h>
-#include <otfcc/table/fvar.h>
+#include <otfcc/internal/table/table-common.h>
+#include <otfcc/internal/table/head.h>
+#include <otfcc/internal/table/maxp.h>
+#include <otfcc/internal/table/fvar.h>
 
 enum GlyphType { SIMPLE, COMPOSITE };
 

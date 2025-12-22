@@ -1,7 +1,7 @@
 #ifndef CARYLL_INCLUDE_TABLE_BASE_H
 #define CARYLL_INCLUDE_TABLE_BASE_H
 
-#include <otfcc/table/otl.h>
+#include <otfcc/internal/table/otl.h>
 
 typedef struct {
 	uint32_t tag;

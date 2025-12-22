@@ -1,9 +1,9 @@
 #ifndef CARYLL_VF_AXIS_H
 #define CARYLL_VF_AXIS_H
 
-#include <otfcc/caryll/element.h>
-#include <otfcc/caryll/vector.h>
-#include <otfcc/primitives.h>
+#include <otfcc/internal/caryll/element.h>
+#include <otfcc/internal/caryll/vector.h>
+#include <otfcc/internal/primitives.h>
 
 typedef struct {
 	uint32_t tag;

@@ -1,7 +1,7 @@
 #ifndef CARYLL_INCLUDE_TABLE_HHEA_H
 #define CARYLL_INCLUDE_TABLE_HHEA_H
 
-#include <otfcc/table/table-common.h>
+#include <otfcc/internal/table/table-common.h>
 
 typedef struct {
 	// Horizontal header

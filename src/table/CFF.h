@@ -1,7 +1,7 @@
 #ifndef CARYLL_TABLE_CFF_H
 #define CARYLL_TABLE_CFF_H
 
-#include <otfcc/table/CFF.h>
+#include <otfcc/internal/table/CFF.h>
 #include "glyf.h"
 
 table_CFFAndGlyf otfcc_readCFFAndGlyfTables(const otfcc_Packet packet, const otfcc_Options *options,

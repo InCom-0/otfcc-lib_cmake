@@ -1,4 +1,4 @@
-#include <otfcc/vf/vq.h>
+#include <otfcc/internal/vf/vq.h>
 #include "support/util.h"
 
 // Variation vector

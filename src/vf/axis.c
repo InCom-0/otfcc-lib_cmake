@@ -1,4 +1,4 @@
-#include <otfcc/vf/axis.h>
+#include <otfcc/internal/vf/axis.h>
 #include "support/util.h"
 
 caryll_standardValType(vf_Axis, vf_iAxis);

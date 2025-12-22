@@ -1,4 +1,4 @@
-#include <otfcc/primitives.h>
+#include <otfcc/internal/primitives.h>
 #include "bin-io.h"
 #include <math.h>
 

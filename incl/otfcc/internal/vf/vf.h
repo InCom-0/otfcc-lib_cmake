@@ -8,7 +8,7 @@
 // VS-AVAR
 // part as a Ket.
 
-#include <otfcc/vf/vq.h>
-#include <otfcc/vf/axis.h>
+#include <otfcc/internal/vf/vq.h>
+#include <otfcc/internal/vf/axis.h>
 
 #endif

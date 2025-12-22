@@ -2,8 +2,8 @@
 #define CARYLL_INCLUDE_LOGGER_H
 
 #include <sds.h>
-#include <otfcc/caryll/ownership.h>
-#include <otfcc/primitives.h>
+#include <otfcc/internal/caryll/ownership.h>
+#include <otfcc/internal/primitives.h>
 
 typedef struct otfcc_ILoggerTarget {
 	void (*dispose)(struct otfcc_ILoggerTarget *self);             // destructor

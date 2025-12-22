@@ -5,9 +5,9 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include <sds.h>
-#include <otfcc/caryll/ownership.h>
-#include <otfcc/caryll/element.h>
-#include <otfcc/primitives.h>
+#include <otfcc/internal/caryll/ownership.h>
+#include <otfcc/internal/caryll/element.h>
+#include <otfcc/internal/primitives.h>
 
 typedef enum {
 	HANDLE_STATE_EMPTY = 0,

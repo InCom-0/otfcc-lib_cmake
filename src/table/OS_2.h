@@ -1,7 +1,7 @@
 #ifndef CARYLL_TABLE_OS_2_H
 #define CARYLL_TABLE_OS_2_H
 
-#include <otfcc/table/OS_2.h>
+#include <otfcc/internal/table/OS_2.h>
 
 table_OS_2 *otfcc_readOS_2(const otfcc_Packet packet, const otfcc_Options *options);
 void otfcc_dumpOS_2(const table_OS_2 *table, json_value *root, const otfcc_Options *options);

@@ -1,7 +1,7 @@
 #ifndef CARYLL_TABLE_GLYF_H
 #define CARYLL_TABLE_GLYF_H
 
-#include <otfcc/table/glyf.h>
+#include <otfcc/internal/table/glyf.h>
 
 glyf_Glyph *otfcc_newGlyf_glyph();
 void otfcc_initGlyfContour(glyf_Contour *contour);

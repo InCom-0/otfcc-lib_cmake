@@ -1,48 +1,48 @@
 #ifndef CARYLL_FONT_H
 #define CARYLL_FONT_H
 
-#include <otfcc/sfnt.h>
+#include <otfcc/internal/sfnt.h>
 
 struct _caryll_font;
 typedef struct _caryll_font otfcc_Font;
 
-#include <otfcc/glyph-order.h>
+#include <otfcc/internal/glyph-order.h>
 
-#include <otfcc/table/fvar.h>
+#include <otfcc/internal/table/fvar.h>
 
-#include <otfcc/table/head.h>
-#include <otfcc/table/glyf.h>
-#include <otfcc/table/CFF.h>
-#include <otfcc/table/maxp.h>
-#include <otfcc/table/hhea.h>
-#include <otfcc/table/hmtx.h>
-#include <otfcc/table/hdmx.h>
-#include <otfcc/table/vhea.h>
-#include <otfcc/table/vmtx.h>
-#include <otfcc/table/OS_2.h>
-#include <otfcc/table/post.h>
-#include <otfcc/table/name.h>
-#include <otfcc/table/meta.h>
+#include <otfcc/internal/table/head.h>
+#include <otfcc/internal/table/glyf.h>
+#include <otfcc/internal/table/CFF.h>
+#include <otfcc/internal/table/maxp.h>
+#include <otfcc/internal/table/hhea.h>
+#include <otfcc/internal/table/hmtx.h>
+#include <otfcc/internal/table/hdmx.h>
+#include <otfcc/internal/table/vhea.h>
+#include <otfcc/internal/table/vmtx.h>
+#include <otfcc/internal/table/OS_2.h>
+#include <otfcc/internal/table/post.h>
+#include <otfcc/internal/table/name.h>
+#include <otfcc/internal/table/meta.h>
 
-#include <otfcc/table/cmap.h>
-#include <otfcc/table/cvt.h>
-#include <otfcc/table/fpgm-prep.h>
-#include <otfcc/table/gasp.h>
-#include <otfcc/table/VDMX.h>
+#include <otfcc/internal/table/cmap.h>
+#include <otfcc/internal/table/cvt.h>
+#include <otfcc/internal/table/fpgm-prep.h>
+#include <otfcc/internal/table/gasp.h>
+#include <otfcc/internal/table/VDMX.h>
 
-#include <otfcc/table/LTSH.h>
-#include <otfcc/table/VORG.h>
+#include <otfcc/internal/table/LTSH.h>
+#include <otfcc/internal/table/VORG.h>
 
-#include <otfcc/table/GDEF.h>
-#include <otfcc/table/BASE.h>
-#include <otfcc/table/otl.h>
+#include <otfcc/internal/table/GDEF.h>
+#include <otfcc/internal/table/BASE.h>
+#include <otfcc/internal/table/otl.h>
 
-#include <otfcc/table/CPAL.h>
-#include <otfcc/table/COLR.h>
-#include <otfcc/table/SVG.h>
+#include <otfcc/internal/table/CPAL.h>
+#include <otfcc/internal/table/COLR.h>
+#include <otfcc/internal/table/SVG.h>
 
-#include <otfcc/table/_TSI.h>
-#include <otfcc/table/TSI5.h>
+#include <otfcc/internal/table/_TSI.h>
+#include <otfcc/internal/table/TSI5.h>
 
 typedef enum { FONTTYPE_TTF, FONTTYPE_CFF } otfcc_font_subtype;
 
