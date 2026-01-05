@@ -31,7 +31,7 @@ set_source_files_properties(
 target_sources(otfcc-lib PRIVATE ${SRC_otfcc-lib})
 
 target_sources(otfcc-lib
-  PUBLIC
+  PRIVATE
   FILE_SET priv_headers_insource
   TYPE HEADERS
   BASE_DIRS
