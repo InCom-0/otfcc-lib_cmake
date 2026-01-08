@@ -35,7 +35,7 @@ endif()
 add_library(otfcc-lib)
 add_library(otfcc-lib::otfcc-lib ALIAS otfcc-lib)
 
-file(GLOB_RECURSE SRC_otfcc-lib src/**.c)
+file(GLOB_RECURSE SRC_otfcc-lib src/lib/**.c)
 set_source_files_properties(
   ${SRC_otfcc-lib}
   PROPERTIES LANGUAGE C
@@ -47,7 +47,7 @@ target_sources(otfcc-lib
   FILE_SET priv_headers_insource
   TYPE HEADERS
   BASE_DIRS
-  src)
+  src/lib)
 
 target_sources(otfcc-lib
   PUBLIC
