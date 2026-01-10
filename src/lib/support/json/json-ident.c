@@ -5,6 +5,10 @@
 // #include "winfns.h"
 // #endif
 
+#ifdef _MSC_VER
+#define strdup _strdup
+#endif
+
 static bool compare_json_arrays(const json_value *a, const json_value *b) {
 	for (uint16_t j = 0; j < a->u.array.length; j++) {
 		if (!json_ident(a->u.array.values[j], b->u.array.values[j])) { return false; }
@@ -26,7 +30,7 @@ static bool compare_json_objects(const json_value *a, const json_value *b) {
 		HASH_FIND_STR(h, k, e);
 		if (!e) {
 			NEW(e);
-			e->key = _strdup(k);
+			e->key = strdup(k);
 			e->val = a->u.object.values[j].value;
 			e->check = false;
 			HASH_ADD_STR(h, key, e);
