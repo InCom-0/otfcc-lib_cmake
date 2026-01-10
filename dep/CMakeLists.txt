@@ -26,7 +26,7 @@ target_sources(otfcc_lib_dep
     FILE_SET pub_headers_getopt
     TYPE HEADERS
     BASE_DIRS
-    $<$<BOOL:${USING_MSVC_STL}>:${CMAKE_CURRENT_SOURCE_DIR}/polyfill-msvc>
+    $<$<BOOL:${USING_MSVC_STL}>:${CMAKE_CURRENT_SOURCE_DIR}/polyfill-msvc/include>
 )
 
 if(USING_MSVC_STL)

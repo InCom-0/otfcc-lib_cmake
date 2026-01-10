@@ -313,7 +313,21 @@ static const char *_getopt_initialize(int argc, char *const *argv, const char *o
 
 	nextchar = NULL;
 
-	posixly_correct = getenv("POSIXLY_CORRECT");
+	// Wrapping getenv_s
+	{
+		size_t len = 0;
+
+		/* First call: get required buffer size */
+		getenv_s(&len, NULL, 0, "POSIXLY_CORRECT");
+
+		if (len > 0) {
+			posixly_correct = malloc(len);
+			if (posixly_correct != NULL) {
+				getenv_s(&len, posixly_correct, len, "POSIXLY_CORRECT");
+			}
+		}
+	}
+	// posixly_correct = getenv("POSIXLY_CORRECT");
 
 	/* Determine how to handle the ordering of options and nonoptions.  */
 
