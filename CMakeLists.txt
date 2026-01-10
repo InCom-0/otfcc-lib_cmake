@@ -11,11 +11,11 @@ option(BUILD_SHARED_LIBS "Build shared libraries" ON)
 
 include(cmake/stdlibQuery.cmake)
 if(USING_LIBSTDCXX)
-  message(STATUS "Using libstdc++")
+  message(STATUS "Using libstdc++\n")
 elseif(USING_LIBCXX)
-  message(STATUS "Using libc++")
+  message(STATUS "Using libc++\n")
 elseif(USING_MSVC_STL)
-  message(STATUS "Using MSVC STL")
+  message(STATUS "Using MSVC STL\n")
 endif()
 
 
@@ -28,6 +28,10 @@ option(OTFCC_LIB_BUILD_OTFCCBUILD "Build CLI tool: otfccbuild" ${OTFCC_LIB_BUILD
 ### Platform specific hacks ###
 #####################################################################
 if(CMAKE_CXX_COMPILER_FRONTEND_VARIANT MATCHES "MSVC")
+  set(OTFCC_LIB_TYPE STATIC)
+  message(STATUS "otfcc_lib requires to be build as STATIC when used with MSVC STL.")
+  message(STATUS "Forcing otfcc_lib to be built as STATIC library.\n")
+
   add_compile_options(/utf-8)
   add_compile_definitions(NOMINMAX)
 
@@ -41,14 +45,20 @@ if(CMAKE_CXX_COMPILER_FRONTEND_VARIANT MATCHES "MSVC")
     PROPERTIES
     COMPILE_OPTIONS "/wd4715"
   )
+  
+elseif()
+  if(BUILD_SHARED_LIBS)
+    set(OTFCC_LIB_TYPE SHARED)
+  else()
+    set(OTFCC_LIB_TYPE STATIC)
+  endif()
 endif()
 
 
 ########################################################
 ### Target specification - otfcc_lib ###
 ########################################################
-
-add_library(otfcc_lib STATIC)
+add_library(otfcc_lib ${OTFCC_LIB_TYPE})
 add_library(otfcc_lib::otfcc_lib ALIAS otfcc_lib)
 
 file(GLOB_RECURSE SRC_otfcc_lib src/lib/**.c)
