@@ -18,6 +18,8 @@ target_sources(otfcc_lib_dep
     uthash/include
 )
 
+set_target_properties(otfcc_lib_dep PROPERTIES POSITION_INDEPENDENT_CODE TRUE)
+
 #####################################################################
 ### Working around getopt.h absence on MSVC STL ###
 #####################################################################
