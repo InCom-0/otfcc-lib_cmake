@@ -90,6 +90,8 @@ if(CMAKE_CXX_COMPILER_ID STREQUAL "GNU" OR CMAKE_C_COMPILER_ID STREQUAL "GNU")
   target_compile_options(otfcc_lib PRIVATE -Wno-multichar)
 endif()
 
+set_target_properties(otfcc_lib PROPERTIES POSITION_INDEPENDENT_CODE TRUE)
+
 ########################################################
 ### Target specification - otfccdump ###
 ########################################################
